@@ -1,5 +1,4 @@
 # GenAI-1-41_introduction_to_the_project
-# Text Generation Pipeline
 
 Простая утилита для генерации текста с помощью [HuggingFace Transformers](https://huggingface.co/).  
 Скрипт позволяет сгенерировать текст заданной длины (по словам).  
