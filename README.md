@@ -24,7 +24,7 @@ pip install -r requirements.txt
 - transformers >= 4.30.0
 
 Использование:
-Запуск скрипта
+- Запускаем утилиту находясь в папке с проектом
 ```bash
 python text_gen_pipeline.py --prompt "В далёкой галактике" --min_words 30 --max_words 50
 ```
