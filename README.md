@@ -6,14 +6,17 @@
 Базово генерация происходит в диапозоне [30; 50] слов, так же пользователь может указать диапазон слов [`--min_words` и `--max_words`].
 
 ## Требования
-
+- Перед использованием утилиты необходимо убедится в том что у вас стоит Python и все необходимые библиотеки
 - Python 3.8+
 - [PyTorch](https://pytorch.org/get-started/locally/)
 - [Transformers](https://huggingface.co/docs/transformers/index)
-
-Установить зависимости:
-
+- Для установки библиотек можно воспользоваться requirements.txt
 ```bash
+#клонируем репозиторий или переходим в папку с проектом
+git clone https://github.com/bargomix/GenAI-1-41_introduction_to_the_project.git
+cd GenAI-1-41_introduction_to_the_project.git
+
+#установка зависимостей
 pip install -r requirements.txt
 ```
 Содержимое requirements.txt
